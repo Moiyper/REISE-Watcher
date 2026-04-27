@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Proc">
+      <UniqueIdentifier>{0793135c-7804-41a6-bdc8-ded20ade6fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\RAM">
+      <UniqueIdentifier>{53b1a825-1a5f-4271-8a5c-358d4b176536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GPU">
+      <UniqueIdentifier>{d1c12733-3e09-4114-9840-9c48a3682862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\List">
+      <UniqueIdentifier>{5fbc3cad-9e20-4da5-b23f-afcb54cdeb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\PCNAME">
+      <UniqueIdentifier>{510e1d59-5100-4016-8cf7-c5a79cb35a0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="REISE Watcher.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Исходные файлы\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="ram.cpp">
+      <Filter>Исходные файлы\RAM</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU.cpp">
+      <Filter>Исходные файлы\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices.cpp">
+      <Filter>Исходные файлы\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы\PCNAME</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Processor.h">
+      <Filter>Исходные файлы\Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="ram.h">
+      <Filter>Исходные файлы\RAM</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU.h">
+      <Filter>Исходные файлы\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices.h">
+      <Filter>Исходные файлы\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Исходные файлы\PCNAME</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

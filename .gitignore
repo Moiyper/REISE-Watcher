@@ -1,0 +1,16 @@
+.vs/
+*.user
+*.suo
+*.sdf
+*.db
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.pdb
+*.lib
+*.dll
+L's Watcher/
+REISE Watcher/
